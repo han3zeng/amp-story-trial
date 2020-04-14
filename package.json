@@ -6,10 +6,15 @@
   "dependencies": {
     "express": "^4.17.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node ./node_modules/gulp/bin/gulp.js",
+    "start:prod": "node server.js",
+    "start:build": "node ./node_modules/gulp/bin/gulp.js minify transpile"
   },
   "repository": {
     "type": "git",

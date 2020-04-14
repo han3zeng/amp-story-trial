@@ -2,7 +2,7 @@
 
 This folder contains the files for the "Create a visual AMP Story" tutorial.
 
-## Origianl Files included
+## Orignal Files included
 
 ```text
 amp-pets-story
@@ -17,3 +17,10 @@ amp-pets-story
 ## License
 
 This tutorial is licensed under [Apache License, Version 2.0](https://github.com/ampproject/docs/blob/master/LICENSE).
+
+
+## Refs
+
+* https://www.browsersync.io/docs/gulp
+* https://stackoverflow.com/questions/35576663/using-browser-sync-with-node-js-app
+* https://gulpjs.com/docs/en/getting-started/async-completion
